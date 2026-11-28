@@ -1,3 +1,14 @@
+"""Views for the posts application."""
+
 from django.shortcuts import render
+
+
+def inicio(request):
+    return render(request, 'posts/inicio.html')
+
+
+def acerca(request):
+    return render(request, 'posts/acerca.html')
+
 
 # Create your views here.
